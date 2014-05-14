@@ -1,0 +1,24 @@
+%h1 Cluck Lists
+
+%table
+  %tr
+    %th Userid
+    %th Username
+    %th Body
+    %th Posted_date
+    %th
+    %th
+
+  - @clucks.each do |cluck|
+    %tr
+      %td= cluck.userid
+      %td= cluck.username
+      %td= cluck.body
+      %td= cluck.posted_date
+      %td= link_to 'Show', cluck
+      %td= link_to 'Edit', edit_cluck_path(cluck)
+      %td= link_to 'Destroy', cluck, :method => :delete, :data => { :confirm => 'Are you sure?'}
+
+%br
+
+= link_to 'New Cluck', new_cluck_path

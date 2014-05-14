@@ -1,0 +1,55 @@
+%style 
+
+%div{:class =>"image"}
+	%img{:src=>"http://123parades.com/wp-content/uploads/2014/04/easter-chick-clipart_1396627196.jpg"} 
+
+%div{:class =>"title"}
+	%h1 Clucker
+
+%button{:id=>"signup"}Sign Up
+%div{:class=>"form"}
+	%p First name: <input type="text" name="fname" required><br>
+	%p Last name: <input type="text" name="lname" required><br>
+	%p Email address: <input type="text" name="email" required><br>
+	%p Password: <input type="text" name="pword" <required><br>
+	%p	
+	%button{:id =>"submit"} SUBMIT
+	%button{:id =>"cancel"} CANCEL
+//%div{:class =>"image2"}
+//	%img{:src=>"http://123parades.com/wp-content/uploads/2014/04/easter-chick-clipart_1396627196.jpg"} 
+%button{:id=>"login"}Login
+%div{:class=>"logform"}
+	%p Email address: <input type="text" name="emailin" required><br>
+	%p Password: <input type="text" name="pwordin" requred><br>
+	%p	
+	%button{:id =>"enter"} ENTER
+	%button{:id =>"exit"} CANCEL
+
+
+%body
+//%div{:class=>"background"}
+//	%img{:src=>"http://www.southardhouse.com/images/prosbo_hires.jpg"}
+
+//link_to image_tag(src='prosbo_hires.jpg') 
+
+
+	
+
+/%button{:id =>"btnStart"} START
+%h3 First Ruby App 
+%p Welcome to Clucker. Explore and Enjoy!
+%div{:class=>"features"}
+	%p Clucker features:
+	%ul{:class => "list"}
+		%li A cool personal web templates.
+		%li Rollover button links.
+		%li Write clucks.
+%div{:class=>"href"}
+	-# %a{:href => 'main/Home'} Home
+	%a{:href => 'main/about'} About
+	%a{:href => 'main/New'} New
+	-# %a{:href => 'main/Contact'} Contact
+	%a{:href => 'mailto:grace@yahoo.com'} Send an Email
+%h4 Copyright @ 2014, by Grace
+	
+

@@ -1,0 +1,20 @@
+%p#notice= notice
+
+%p
+  %b Userid:
+  = @cluck.userid
+
+%p
+  %b Username:
+  =@cluck.username
+%p
+  %b Body:
+  = @cluck.body
+%p
+  %b Posted_date:
+  =@cluck.posted_date
+
+= link_to 'Edit', edit_cluck_path(@cluck)
+\|
+= link_to 'Back', clucks_path
+

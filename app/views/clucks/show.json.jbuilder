@@ -1,0 +1,1 @@
+json.extract! @cluck, :userid, :username, :body, :posted_date, :starred, :created_at, :updated_at
