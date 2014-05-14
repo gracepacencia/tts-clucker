@@ -7,7 +7,7 @@ class Cluck
   field	:posted_date, type: String
   
 
-  index({starred: 1})
-  validates :userid, presence:true
+  
+  validates :username, :body, presence:true
   
 end
