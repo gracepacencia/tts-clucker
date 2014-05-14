@@ -11,9 +11,9 @@ body{background-image:url("prosbo_hires.jpg"); background-repeat:no-repeat; back
 div.features{position:absolute; top:350px; left:50px;font-size:20;}
 
 div.href{position:absolute;top:550px;}
-button.btnStart{font-family: cursive; font-size: :1000px; margin-left: 0px background: #ff9933; border:inset; border-style:solid; 3px solid #ff2200; border radius: 6px; padding:10px 20px; color: #00000;position:relative;left:350px;top:350px;}
+button.btnStart{font-family: cursive; font-size: 24px; margin-left: 0px; background: #ff9933; border:inset; border-style:solid 3px solid #ff2200; border-radius: 6px; padding:10px 20px; color: #00000; position:relative; left:350px; top:350px;}
 h3 {font-family: fantasy; font-size: 40px; font-weight: 300px; top:600; position:relative;}
-h2 {font-family: fantasy; font-size: 40px; font-weight: 300px; top:600; postition:relative;}
+h2 {font-family: fantasy; font-size: 40px; font-weight: 300px; top:600; position:relative;}
 div.form{visibility:hidden;}
 div.form{
 	position: absolute;
