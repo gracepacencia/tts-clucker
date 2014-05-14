@@ -59,7 +59,7 @@ $(document).ready(function(){
             data: dataToSend
         }).done(function(data){
             if ((data.emailin == dataToSend.emailin) && (data.pword == dataToSend.pword))
-                window.location = "http://localhost:3000/clucks";
+                window.location = "http://tts-clucker-grace.herokuapp.com/clucks";
                 // window.location = 'http://localhost:3000/users/cluck?user=' + data.emailin;
                 //    alert ("Hello");
             //else
