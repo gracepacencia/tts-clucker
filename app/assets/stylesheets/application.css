@@ -45,6 +45,6 @@ button#login{position:absolute;top:20px; left:800px; font-size:20px; font-family
 p {margin: 0; margin-bottom: 15px;}
 li { left: 100px; margin-bottom: 5px; list-style-type: square;}
 a.href{position:absolute;text-decoration: underline;}
-img {height: 50px; width=50px}
+img {height: 50px; width: 50px}
 ul.aboutlist{left:600px; margin-bottom: 5px; list-style-type:square}
 h4{position:relative; width:300px; height:300px; margin-left:-150px; bottom:10px; left:50%; margin-top:350px;}
